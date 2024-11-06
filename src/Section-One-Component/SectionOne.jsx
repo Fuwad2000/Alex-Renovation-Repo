@@ -7,10 +7,10 @@ function SectionOne(){
         <>
         <section className="bg-sectionone-bg default-section-one-container lg:bg-center ">
             <div className="section-Content grid place-content-center gap-3">
-                <h1 style={{textShadow: '3px 3px #d84315'}} className="text-7xl default-display-text md:text-8xl lg:text-9xl ">Alex</h1>
+                <h1 style={{textShadow: '3px 3px #d84315'}} className="text-6xl default-display-text md:text-8xl lg:text-9xl ">Alex</h1>
                 <h2 style={{textShadow: '2px 2px #d84315'}} className="text-xl default-display-text  md:text-2xl lg:text-3xl" >Home RENOVATIONS</h2>
                 <h3 style={{textShadow: '2px 2px #d84315'}} className="text-l default-display-text md:text-lg lg:text-xl" >20+ Years Serving: all-across-the-gta</h3>
-                <a href="#Contact">
+                <a href="#Contact" className='justify-self-center'>
                 <Button
                     variant="contained"
                     sx={{
